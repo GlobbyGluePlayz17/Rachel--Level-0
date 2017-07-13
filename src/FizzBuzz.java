@@ -1,13 +1,17 @@
 public class FizzBuzz {
 	public static void main(String[] args) {
 		for (int lkjhgfdsa = 0; lkjhgfdsa < 21; lkjhgfdsa++) {
-			System.out.println(lkjhgfdsa);
+			
 			if (lkjhgfdsa%3 == 0) {
 				System.out.print("Fizz");
 			}
 			if (lkjhgfdsa%5 == 0) {
 				System.out.print("Buzz");
 			}
+			if (lkjhgfdsa%5 != 0 && lkjhgfdsa%3 != 0) {
+				System.out.print(lkjhgfdsa);
+			}
+			System.out.println("");
 		}
 	}
 }
